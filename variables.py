@@ -1,0 +1,16 @@
+int=1
+float=1.2
+string="vedantu"
+boolean=True
+list=["devops","SRE"]
+dict={"name":"UMESH","age":24}
+tuple=("30th","june",2024)
+set={1,2,3}
+print("int")
+print("float")
+print("string")
+print("boolean")
+print("list")
+print("dict")
+print("tuple")
+print("set")

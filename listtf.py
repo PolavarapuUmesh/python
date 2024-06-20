@@ -71,8 +71,73 @@ bucket1=["images","logs","files","videos"]
 bucket2={"images","logs","code","files"}
 print("files" not in bucket2)
 
-#
+#it is to print item count & item in a single set
 bucket1=["images","logs","files","videos","logs"]
 counts=[[bucket1.count(item), item] for item in set(bucket1)]
 print(counts)
 
+#count how many items in a list
+bucket2=["groups","roles","users","policies","roles"]
+item=[bucket2.count(item) for item in set(bucket2)]
+print(item)
+
+#
+from collections import Counter
+list=["i1","i2","i3","i2","i1"]
+print(Counter(list))    
+
+# collentions in python
+from collections import Counter
+a="aaabbbbdhdhhhfjjjjj" 
+my_counter=Counter(a)
+print(set(my_counter.most_common(2)))
+
+#
+l1=["aq","we"]
+l2=["ie","oe"]
+print(len(l1), GeneratorExit(l2))
+
+
+#
+set=("wed","thu")
+list=["l1","l2"]
+print(len(set), (list))
+
+#
+ipl=["srh","mi","rcb","csk"]
+ipl.remove("csk")
+print(ipl)
+
+# it counts the characters of a string
+bike_companies=["honda","suzuki","tvs","tvs","honda","hero"]
+from collections import Counter
+print(Counter("bike_companies"))
+
+# combine a lists and print 
+working_days=["mon","tues","wen","thur","fri"]
+non_working_days=["sat","sun"]
+all_working_days = working_days + non_working_days
+print("days per a week :")
+for day in all_working_days:
+    print(day)
+
+# insert a string to a list
+groceries=["vegitables","meat","milk","eggs"]
+groceries.insert(4, "chocolates")
+print(groceries)
+
+# methods in list insert,delete,append,extend
+list=["hello","hi","thankyou"]
+print("original list:", list)
+list.append("ok")
+print("list after appending(ok):", list)
+list.remove("ok")
+print("list after removing(ok):", list)
+list.extend([7,8,9])
+print("list after extending(7,8,9):", list)
+del list[0]
+print("list after deleting index 0:", list)
+print("final list element:")
+for elements in list:
+    print(elements)
+    
