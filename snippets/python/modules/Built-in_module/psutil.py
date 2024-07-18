@@ -1,14 +1,13 @@
-import os
-import time
+import psutil,os,time
 
 pid = os.fork()
 
-if pid == 0: # This is the child process
+if pid == 0: 
     print("Child process")
-    time.sleep(5)  # Sleep for 5 seconds
+    time.sleep(5)  
     print("Child process exiting")
 else:
     print("Parent process")
     print("Child process ID:", pid)
-    time.sleep(10)  #
+    time.sleep(10) 
     print("Parent process exiting")
