@@ -4,7 +4,7 @@ import socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Define the port on which you want to connect
-port = 12345
+port = 8080
 
 # Connect to the server
 client_socket.connect(("localhost", port))

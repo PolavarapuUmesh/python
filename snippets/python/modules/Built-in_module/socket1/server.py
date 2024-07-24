@@ -1,16 +1,16 @@
 import socket
 
 # Create a socket object
-server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #those arguments are address family ipv4 & connection oriented tcp protocol
 
 # Define the port on which you want to connect
-port = 8080
+port = 9090
 
 # Bind to the port
-server_socket.bind(("", port))
+server_socket.bind(("", port)) #here we are bindinng port num or ip add 
 
 # Queue up to 5 requests
-server_socket.listen(5)
+server_socket.listen(5) #it accepts the request where the request comes from the client side
 
 print("Server started. Listening for incoming connections...")
 
