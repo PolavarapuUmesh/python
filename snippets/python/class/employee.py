@@ -8,7 +8,20 @@ emp1=employee("polavarapu","umesh","umeshpolavarapu71@gmail.com",20000)         
 emp2=employee("polavarapu","suresh","sureshpolavarapu71@gmail.com",70000)            #emp2 is a instance variable
 emp3=employee("polavarapu","rajaneesh","rajaneeshpolavrapu@gmail.com",400000)            #emp3 is a instance variable 
 
-print("employees first name:",[emp1.first,emp2.first,emp3.first])
-print("employees last name:",[emp1.last,emp2.last,emp3.last])
-print("employees email:",[emp1.email,emp2.email,emp3.email])
-print("employees pay:",[emp1.pay,emp2.pay,emp3.pay])
+print("First employee details:")
+print("employees first name:",[emp1.first])
+print("employees last name:",[emp1.last])
+print("employees email:",[emp1.email])
+print("employees pay:",[emp1.pay])
+
+print("Second employee details:")
+print("employees first name:",[emp2.first])
+print("employees last name:",[emp2.last])
+print("employees email:",[emp2.email])
+print("employees pay:",[emp2.pay])
+
+print("Third employee details:")
+print("employees first name:",[emp3.first])
+print("employees last name:",[emp3.last])
+print("employees email:",[emp3.email])
+print("employees pay:",[emp3.pay])
