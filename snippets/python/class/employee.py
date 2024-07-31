@@ -4,7 +4,7 @@ class employee:            #employee class uses pass to create an empty class de
         self.last=last
         self.email=email
         self.pay=pay       #pass is a statemnet that gives you to skip for now and use it further use
-emp1=employee("polavarapu","umesh","umeshpolavarapu1@gmail.com",20000)            #emp1 is a instance variable 
+emp1=employee("polavarapu","umesh","umeshpolavarapu1@gmail.com",25000)            #emp1 is a instance variable 
 emp2=employee("polavarapu","suresh","sureshpolavarapu31@gmail.com",70000)            #emp2 is a instance variable
 emp3=employee("polavarapu","rajaneesh","rajaneeshpolavrapu@gmail.com",400000)            #emp3 is a instance variable 
 
