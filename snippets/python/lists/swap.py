@@ -21,3 +21,4 @@ print(random.randint(0,9))
 #length of the string
 s="umesh"
 print(len(s))
+
