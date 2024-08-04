@@ -9,4 +9,3 @@ class salary(job):
         return "happy"
 tax=salary("income")
 print(tax.dev)
-
