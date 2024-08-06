@@ -27,3 +27,10 @@ def math(y,t):
     sub=y-t
     return sub
 
+#
+data="vedantu_data"
+a=data[8:]
+print(a)
+
+#data 
+chr(22)
